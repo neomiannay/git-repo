@@ -52,6 +52,12 @@ footer p {
 
 footer h4 {
     margin-top: 0.5em;
+    transition: all 0.3s ease-in-out;
+}
+
+footer h4:hover {
+    cursor: pointer;
+    text-transform: underline #ffff;
 }
 
 .img{
